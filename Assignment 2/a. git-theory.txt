@@ -4,7 +4,6 @@ Git is a distributed version control system designed to track changes in source 
 GitHub:
 GitHub is a web-based platform that provides hosting for Git repositories. It enhances collaboration by offering features like pull requests, issue tracking, and project management tools. GitHub allows developers to host their Git repositories and work collaboratively with others.
 
-
 1. Clone:
 Cloning is the process of creating a copy of a remote repository on your local machine. This local copy allows you to work on the project independently and contribute changes.
 Example:
