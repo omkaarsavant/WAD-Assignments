@@ -1,0 +1,72 @@
+ASUS@aaaaa MINGW64 ~/Documents/GitHub
+$ git clone https://github.com/omkaarsavant/WAD-Assignments
+Cloning into 'WAD-Assignments'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (2/2), done.
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub
+$ cd WAD-Assignments/
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment 2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git add .
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git commit -m "Assignment 2"
+[main 908c1ac] Assignment 2
+ 1 file changed, 41 insertions(+)
+ create mode 100644 Assignment 2/Git-Theory.txt
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git remote set-url origin https://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@github.com/omkaarsavant/WAD-Assignments
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git pull
+Already up to date.
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.72 KiB | 1.72 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/omkaarsavant/WAD-Assignments
+   b2ecc1f..908c1ac  main -> main
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ASUS@aaaaa MINGW64 ~/Documents/GitHub/WAD-Assignments (main)
+$ git pull origin
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.59 KiB | 325.00 KiB/s, done.
+From https://github.com/omkaarsavant/WAD-Assignments
+   908c1ac..ab4a781  main       -> origin/main
+Updating 908c1ac..ab4a781
+Fast-forward
+ Assignment 2/{Git-Theory.txt => a. git-theory.txt} | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ rename Assignment 2/{Git-Theory.txt => a. git-theory.txt} (98%)
