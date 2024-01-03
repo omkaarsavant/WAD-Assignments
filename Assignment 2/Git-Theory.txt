@@ -1,0 +1,41 @@
+Git:
+Git is a distributed version control system designed to track changes in source code during software development. It allows multiple developers to collaborate on a project simultaneously. Each developer has a local copy of the entire project history, and changes are tracked through commits.
+
+GitHub:
+GitHub is a web-based platform that provides hosting for Git repositories. It enhances collaboration by offering features like pull requests, issue tracking, and project management tools. GitHub allows developers to host their Git repositories and work collaboratively with others.
+
+
+1. Clone:
+Cloning is the process of creating a copy of a remote repository on your local machine. This local copy allows you to work on the project independently and contribute changes.
+Example:
+git clone https://github.com/example/repo.git
+
+2. Push:
+Pushing involves uploading your local changes to the remote repository, making them accessible to other collaborators. It's a way to share your work with the rest of the team.
+Example:
+git add .
+git commit -m "Your commit message"
+git push origin master
+
+3. Pull:
+Pulling is used to fetch and merge changes from the remote repository into your local working branch. It ensures that your local copy is up-to-date with the latest changes made by others.
+Example:
+git pull origin master
+
+4. Commit:
+Committing captures a snapshot of changes in your local repository. It creates a point in the project's history, making it easier to track modifications and roll back if needed.
+Example:
+git add .
+git commit -m "Your commit message"
+
+5. Branch:
+Branching allows developers to work on separate features or bug fixes without affecting the main codebase. It promotes parallel development and experimentation.
+Example:
+git branch feature-branch
+git checkout feature-branch   
+
+6. Merge:
+Merging integrates changes from one branch into another. It's commonly used to bring features developed in separate branches back into the main branch.
+Example:
+git checkout master  
+git merge feature-branch
